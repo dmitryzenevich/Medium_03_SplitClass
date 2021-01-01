@@ -2,7 +2,7 @@ namespace SplitClass
 {
     public abstract class Character : ICharacter
     {
-        public string Name { get; private set; }
-        public int Age { get; private set; }
+        public string Name { get; protected set; }
+        public int Age { get; protected set; }
     }
 }
